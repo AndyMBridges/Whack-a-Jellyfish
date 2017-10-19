@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364F8A03ACF96727B60C8427 /* Pods_Whack_a_jellyfishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7D062D29DAD14C561D9838 /* Pods_Whack_a_jellyfishTests.framework */; };
+		AA7815C97297D066F6BA134A /* Pods_Whack_a_jellyfishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2AF433060C2D8D563F05B /* Pods_Whack_a_jellyfishUITests.framework */; };
+		DDF8692B9A46A3D8F95A6040 /* Pods_Whack_a_jellyfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F392571C1B099B858BC09FC /* Pods_Whack_a_jellyfish.framework */; };
+		FD5ADBB11F9769BD00A752DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5ADBB01F9769BD00A752DA /* AppDelegate.swift */; };
+		FD5ADBB31F9769BD00A752DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5ADBB21F9769BD00A752DA /* ViewController.swift */; };
+		FD5ADBB61F9769BE00A752DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5ADBB41F9769BE00A752DA /* Main.storyboard */; };
+		FD5ADBB81F9769BE00A752DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5ADBB71F9769BE00A752DA /* Assets.xcassets */; };
+		FD5ADBBB1F9769BE00A752DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5ADBB91F9769BE00A752DA /* LaunchScreen.storyboard */; };
+		FD5ADBC61F9769BE00A752DA /* Whack_a_jellyfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5ADBC51F9769BE00A752DA /* Whack_a_jellyfishTests.swift */; };
+		FD5ADBD11F9769BE00A752DA /* Whack_a_jellyfishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5ADBD01F9769BE00A752DA /* Whack_a_jellyfishUITests.swift */; };
+		FD5ADBE11F978FAE00A752DA /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = FD5ADBE01F978FAE00A752DA /* Textures */; };
+		FD5ADBEA1F97917500A752DA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5ADBE91F97917500A752DA /* art.scnassets */; };
+		FD93EDA91F97ADF00056FC80 /* Each.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD93EDAA1F97ADF00056FC80 /* Each.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5ADBC21F9769BE00A752DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5ADBA51F9769BD00A752DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5ADBAC1F9769BD00A752DA;
+			remoteInfo = "Whack a jellyfish";
+		};
+		FD5ADBCD1F9769BE00A752DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5ADBA51F9769BD00A752DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5ADBAC1F9769BD00A752DA;
+			remoteInfo = "Whack a jellyfish";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D73F7F6098CB13A85BB285C /* Pods-Whack a jellyfishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whack a jellyfishTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whack a jellyfishTests/Pods-Whack a jellyfishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D7D062D29DAD14C561D9838 /* Pods_Whack_a_jellyfishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whack_a_jellyfishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A1F474ED81F933806ACBFA /* Pods-Whack a jellyfish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whack a jellyfish.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whack a jellyfish/Pods-Whack a jellyfish.release.xcconfig"; sourceTree = "<group>"; };
+		42E903DFB385BC009D1D9830 /* Pods-Whack a jellyfishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whack a jellyfishUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whack a jellyfishUITests/Pods-Whack a jellyfishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D843A1E6208543188D58073 /* Pods-Whack a jellyfishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whack a jellyfishUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whack a jellyfishUITests/Pods-Whack a jellyfishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51DE3FF2871A6BF904C3E480 /* Pods-Whack a jellyfishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whack a jellyfishTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whack a jellyfishTests/Pods-Whack a jellyfishTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F392571C1B099B858BC09FC /* Pods_Whack_a_jellyfish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whack_a_jellyfish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B052C4A7AF2E5D6D74FDE29 /* Pods-Whack a jellyfish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whack a jellyfish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whack a jellyfish/Pods-Whack a jellyfish.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB2AF433060C2D8D563F05B /* Pods_Whack_a_jellyfishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whack_a_jellyfishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5ADBAD1F9769BD00A752DA /* Whack a jellyfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack a jellyfish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5ADBB01F9769BD00A752DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5ADBB21F9769BD00A752DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5ADBB51F9769BE00A752DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5ADBB71F9769BE00A752DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD5ADBBA1F9769BE00A752DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD5ADBBC1F9769BE00A752DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5ADBC11F9769BE00A752DA /* Whack a jellyfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack a jellyfishTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5ADBC51F9769BE00A752DA /* Whack_a_jellyfishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_jellyfishTests.swift; sourceTree = "<group>"; };
+		FD5ADBC71F9769BE00A752DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5ADBCC1F9769BE00A752DA /* Whack a jellyfishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack a jellyfishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5ADBD01F9769BE00A752DA /* Whack_a_jellyfishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_jellyfishUITests.swift; sourceTree = "<group>"; };
+		FD5ADBD21F9769BE00A752DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5ADBE01F978FAE00A752DA /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = "../../../Downloads/Spongebob Jellyfish/Textures"; sourceTree = "<group>"; };
+		FD5ADBE91F97917500A752DA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		FD93EDAA1F97ADF00056FC80 /* Each.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Each.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5ADBAA1F9769BD00A752DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD93EDA91F97ADF00056FC80 /* Each.framework in Frameworks */,
+				DDF8692B9A46A3D8F95A6040 /* Pods_Whack_a_jellyfish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5ADBBE1F9769BE00A752DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364F8A03ACF96727B60C8427 /* Pods_Whack_a_jellyfishTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5ADBC91F9769BE00A752DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7815C97297D066F6BA134A /* Pods_Whack_a_jellyfishUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24632F40646425DB00F931B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B052C4A7AF2E5D6D74FDE29 /* Pods-Whack a jellyfish.debug.xcconfig */,
+				23A1F474ED81F933806ACBFA /* Pods-Whack a jellyfish.release.xcconfig */,
+				0D73F7F6098CB13A85BB285C /* Pods-Whack a jellyfishTests.debug.xcconfig */,
+				51DE3FF2871A6BF904C3E480 /* Pods-Whack a jellyfishTests.release.xcconfig */,
+				42E903DFB385BC009D1D9830 /* Pods-Whack a jellyfishUITests.debug.xcconfig */,
+				4D843A1E6208543188D58073 /* Pods-Whack a jellyfishUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98CEEE8F7EC5AD3316A0222A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD93EDAA1F97ADF00056FC80 /* Each.framework */,
+				6F392571C1B099B858BC09FC /* Pods_Whack_a_jellyfish.framework */,
+				0D7D062D29DAD14C561D9838 /* Pods_Whack_a_jellyfishTests.framework */,
+				CCB2AF433060C2D8D563F05B /* Pods_Whack_a_jellyfishUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD5ADBA41F9769BD00A752DA = {
+			isa = PBXGroup;
+			children = (
+				FD5ADBAF1F9769BD00A752DA /* Whack a jellyfish */,
+				FD5ADBC41F9769BE00A752DA /* Whack a jellyfishTests */,
+				FD5ADBCF1F9769BE00A752DA /* Whack a jellyfishUITests */,
+				FD5ADBAE1F9769BD00A752DA /* Products */,
+				24632F40646425DB00F931B1 /* Pods */,
+				98CEEE8F7EC5AD3316A0222A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5ADBAE1F9769BD00A752DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5ADBAD1F9769BD00A752DA /* Whack a jellyfish.app */,
+				FD5ADBC11F9769BE00A752DA /* Whack a jellyfishTests.xctest */,
+				FD5ADBCC1F9769BE00A752DA /* Whack a jellyfishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5ADBAF1F9769BD00A752DA /* Whack a jellyfish */ = {
+			isa = PBXGroup;
+			children = (
+				FD5ADBB01F9769BD00A752DA /* AppDelegate.swift */,
+				FD5ADBB21F9769BD00A752DA /* ViewController.swift */,
+				FD5ADBB41F9769BE00A752DA /* Main.storyboard */,
+				FD5ADBE01F978FAE00A752DA /* Textures */,
+				FD5ADBB71F9769BE00A752DA /* Assets.xcassets */,
+				FD5ADBB91F9769BE00A752DA /* LaunchScreen.storyboard */,
+				FD5ADBBC1F9769BE00A752DA /* Info.plist */,
+				FD5ADBE91F97917500A752DA /* art.scnassets */,
+			);
+			path = "Whack a jellyfish";
+			sourceTree = "<group>";
+		};
+		FD5ADBC41F9769BE00A752DA /* Whack a jellyfishTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5ADBC51F9769BE00A752DA /* Whack_a_jellyfishTests.swift */,
+				FD5ADBC71F9769BE00A752DA /* Info.plist */,
+			);
+			path = "Whack a jellyfishTests";
+			sourceTree = "<group>";
+		};
+		FD5ADBCF1F9769BE00A752DA /* Whack a jellyfishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5ADBD01F9769BE00A752DA /* Whack_a_jellyfishUITests.swift */,
+				FD5ADBD21F9769BE00A752DA /* Info.plist */,
+			);
+			path = "Whack a jellyfishUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5ADBAC1F9769BD00A752DA /* Whack a jellyfish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5ADBD51F9769BE00A752DA /* Build configuration list for PBXNativeTarget "Whack a jellyfish" */;
+			buildPhases = (
+				54A0078C02654856423B372F /* [CP] Check Pods Manifest.lock */,
+				FD5ADBA91F9769BD00A752DA /* Sources */,
+				FD5ADBAA1F9769BD00A752DA /* Frameworks */,
+				FD5ADBAB1F9769BD00A752DA /* Resources */,
+				1EA38626F9DF273A08011500 /* [CP] Embed Pods Frameworks */,
+				E1AD3F239E8CE5F88B0D0D3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whack a jellyfish";
+			productName = "Whack a jellyfish";
+			productReference = FD5ADBAD1F9769BD00A752DA /* Whack a jellyfish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5ADBC01F9769BE00A752DA /* Whack a jellyfishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5ADBD81F9769BE00A752DA /* Build configuration list for PBXNativeTarget "Whack a jellyfishTests" */;
+			buildPhases = (
+				3E184E6581F926E3309F64AF /* [CP] Check Pods Manifest.lock */,
+				FD5ADBBD1F9769BE00A752DA /* Sources */,
+				FD5ADBBE1F9769BE00A752DA /* Frameworks */,
+				FD5ADBBF1F9769BE00A752DA /* Resources */,
+				EC0A5ADFA6FEF4FFA368DB94 /* [CP] Embed Pods Frameworks */,
+				7EDC876DA36B4673895A33FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5ADBC31F9769BE00A752DA /* PBXTargetDependency */,
+			);
+			name = "Whack a jellyfishTests";
+			productName = "Whack a jellyfishTests";
+			productReference = FD5ADBC11F9769BE00A752DA /* Whack a jellyfishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD5ADBCB1F9769BE00A752DA /* Whack a jellyfishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5ADBDB1F9769BE00A752DA /* Build configuration list for PBXNativeTarget "Whack a jellyfishUITests" */;
+			buildPhases = (
+				C17CE656DEE5A2F28ECF6100 /* [CP] Check Pods Manifest.lock */,
+				FD5ADBC81F9769BE00A752DA /* Sources */,
+				FD5ADBC91F9769BE00A752DA /* Frameworks */,
+				FD5ADBCA1F9769BE00A752DA /* Resources */,
+				3184CCF97AEBDC8830A089AF /* [CP] Embed Pods Frameworks */,
+				FBE9DED51C428994D91DC29D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5ADBCE1F9769BE00A752DA /* PBXTargetDependency */,
+			);
+			name = "Whack a jellyfishUITests";
+			productName = "Whack a jellyfishUITests";
+			productReference = FD5ADBCC1F9769BE00A752DA /* Whack a jellyfishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5ADBA51F9769BD00A752DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Andrew Bridges";
+				TargetAttributes = {
+					FD5ADBAC1F9769BD00A752DA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FD5ADBC01F9769BE00A752DA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD5ADBAC1F9769BD00A752DA;
+					};
+					FD5ADBCB1F9769BE00A752DA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD5ADBAC1F9769BD00A752DA;
+					};
+				};
+			};
+			buildConfigurationList = FD5ADBA81F9769BD00A752DA /* Build configuration list for PBXProject "Whack a jellyfish" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5ADBA41F9769BD00A752DA;
+			productRefGroup = FD5ADBAE1F9769BD00A752DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5ADBAC1F9769BD00A752DA /* Whack a jellyfish */,
+				FD5ADBC01F9769BE00A752DA /* Whack a jellyfishTests */,
+				FD5ADBCB1F9769BE00A752DA /* Whack a jellyfishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5ADBAB1F9769BD00A752DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5ADBBB1F9769BE00A752DA /* LaunchScreen.storyboard in Resources */,
+				FD5ADBB81F9769BE00A752DA /* Assets.xcassets in Resources */,
+				FD5ADBE11F978FAE00A752DA /* Textures in Resources */,
+				FD5ADBEA1F97917500A752DA /* art.scnassets in Resources */,
+				FD5ADBB61F9769BE00A752DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5ADBBF1F9769BE00A752DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5ADBCA1F9769BE00A752DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EA38626F9DF273A08011500 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Whack a jellyfish/Pods-Whack a jellyfish-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Each/Each.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Each.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whack a jellyfish/Pods-Whack a jellyfish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3184CCF97AEBDC8830A089AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whack a jellyfishUITests/Pods-Whack a jellyfishUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E184E6581F926E3309F64AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whack a jellyfishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A0078C02654856423B372F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whack a jellyfish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDC876DA36B4673895A33FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whack a jellyfishTests/Pods-Whack a jellyfishTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17CE656DEE5A2F28ECF6100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whack a jellyfishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1AD3F239E8CE5F88B0D0D3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whack a jellyfish/Pods-Whack a jellyfish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0A5ADFA6FEF4FFA368DB94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whack a jellyfishTests/Pods-Whack a jellyfishTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE9DED51C428994D91DC29D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whack a jellyfishUITests/Pods-Whack a jellyfishUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5ADBA91F9769BD00A752DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5ADBB31F9769BD00A752DA /* ViewController.swift in Sources */,
+				FD5ADBB11F9769BD00A752DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5ADBBD1F9769BE00A752DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5ADBC61F9769BE00A752DA /* Whack_a_jellyfishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5ADBC81F9769BE00A752DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5ADBD11F9769BE00A752DA /* Whack_a_jellyfishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5ADBC31F9769BE00A752DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5ADBAC1F9769BD00A752DA /* Whack a jellyfish */;
+			targetProxy = FD5ADBC21F9769BE00A752DA /* PBXContainerItemProxy */;
+		};
+		FD5ADBCE1F9769BE00A752DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5ADBAC1F9769BD00A752DA /* Whack a jellyfish */;
+			targetProxy = FD5ADBCD1F9769BE00A752DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5ADBB41F9769BE00A752DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5ADBB51F9769BE00A752DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5ADBB91F9769BE00A752DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5ADBBA1F9769BE00A752DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5ADBD31F9769BE00A752DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5ADBD41F9769BE00A752DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5ADBD61F9769BE00A752DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B052C4A7AF2E5D6D74FDE29 /* Pods-Whack a jellyfish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2E9CM5T6L;
+				INFOPLIST_FILE = "Whack a jellyfish/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WCRS.Whack-a-jellyfish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD5ADBD71F9769BE00A752DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A1F474ED81F933806ACBFA /* Pods-Whack a jellyfish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2E9CM5T6L;
+				INFOPLIST_FILE = "Whack a jellyfish/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WCRS.Whack-a-jellyfish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD5ADBD91F9769BE00A752DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D73F7F6098CB13A85BB285C /* Pods-Whack a jellyfishTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2E9CM5T6L;
+				INFOPLIST_FILE = "Whack a jellyfishTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WCRS.Whack-a-jellyfishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack a jellyfish.app/Whack a jellyfish";
+			};
+			name = Debug;
+		};
+		FD5ADBDA1F9769BE00A752DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DE3FF2871A6BF904C3E480 /* Pods-Whack a jellyfishTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2E9CM5T6L;
+				INFOPLIST_FILE = "Whack a jellyfishTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WCRS.Whack-a-jellyfishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack a jellyfish.app/Whack a jellyfish";
+			};
+			name = Release;
+		};
+		FD5ADBDC1F9769BE00A752DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E903DFB385BC009D1D9830 /* Pods-Whack a jellyfishUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2E9CM5T6L;
+				INFOPLIST_FILE = "Whack a jellyfishUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WCRS.Whack-a-jellyfishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Whack a jellyfish";
+			};
+			name = Debug;
+		};
+		FD5ADBDD1F9769BE00A752DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D843A1E6208543188D58073 /* Pods-Whack a jellyfishUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2E9CM5T6L;
+				INFOPLIST_FILE = "Whack a jellyfishUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WCRS.Whack-a-jellyfishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Whack a jellyfish";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5ADBA81F9769BD00A752DA /* Build configuration list for PBXProject "Whack a jellyfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5ADBD31F9769BE00A752DA /* Debug */,
+				FD5ADBD41F9769BE00A752DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5ADBD51F9769BE00A752DA /* Build configuration list for PBXNativeTarget "Whack a jellyfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5ADBD61F9769BE00A752DA /* Debug */,
+				FD5ADBD71F9769BE00A752DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5ADBD81F9769BE00A752DA /* Build configuration list for PBXNativeTarget "Whack a jellyfishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5ADBD91F9769BE00A752DA /* Debug */,
+				FD5ADBDA1F9769BE00A752DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5ADBDB1F9769BE00A752DA /* Build configuration list for PBXNativeTarget "Whack a jellyfishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5ADBDC1F9769BE00A752DA /* Debug */,
+				FD5ADBDD1F9769BE00A752DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5ADBA51F9769BD00A752DA /* Project object */;
+}
